@@ -1,0 +1,27 @@
+{
+  "name": "daico-contracts",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Smart-contracts of Curio DAICO",
+  "author": "Curio Capital AG",
+  "homepage": "https://github.com/CurioTeam/daico-contracts",
+  "scripts": {
+    "compile": "npx truffle compile",
+    "console:develop": "npx truffle develop",
+    "clean": "rm -rf ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CurioTeam/daico-contracts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CurioTeam/daico-contracts/issues"
+  },
+  "dependencies": {
+    "erc1820": "0.0.1",
+    "openzeppelin-solidity": "^2.2.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.0.9"
+  }
+}
